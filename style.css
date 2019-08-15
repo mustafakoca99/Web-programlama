@@ -1,0 +1,52 @@
+@charset "utf-8";
+{
+	margin:0;
+	padding:0;	
+	}
+#leftsidebar{
+	position:fixed;
+	width:200px;
+	height:100%;
+	background-color:#c05a43;
+	left:-200px;
+	transition:all 0.4s linear;
+	}
+	
+	#leftsidebar.active{
+	left:0;
+	}
+	
+#leftsidebar ul li{
+	list-style:none;
+	padding:10px 10px;
+	border-bottom:1px solid white;
+	cursor:pointer;
+	transition:all 0.4s linear;
+	}
+	#leftsidebar ul li:hover{
+background-color:#a6bdbe;
+	}
+	#leftsidebar ul li a{
+		color:white;
+		font-family:sans-serif;
+		text-decoration:none;
+	}
+	.leftsidebarbutton{
+		position:absolute;
+		left:200px;
+		top:0;
+		cursor:pointer;
+	}
+	.leftsidebarbutton:before{
+		content: "\f0c9";
+		font-family:FontAwesome;
+		color:black;
+		position:absolute;
+		font-size:28px;
+		background-color:#c05a43;
+		padding:5px 10px;
+		transition:all 0.4s linear;
+	}
+	.leftsidebarbutton:hover:before{
+		background-color:#a6bdbe;
+	}
