@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ipekkocyigit
+namespace mustafakoca
 {
     public partial class Form1 : Form
     {
@@ -65,15 +65,15 @@ namespace ipekkocyigit
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int kocyigit;
+            int mustafa;
             try
             {
-                kocyigit = (int.Parse(havadakico.Text));
-                if (kocyigit>50)
+                mustafa = (int.Parse(havadakico.Text));
+                if (mustafa>50)
                 {
                     MessageBox.Show("Çalışma durdurulmalıdır.");
                 }
-                else if (kocyigit<50)
+                else if (mustafa<50)
                 {
                     MessageBox.Show("Kontrol düzeyinde çalışılabilir.");
                 }
@@ -107,11 +107,11 @@ namespace ipekkocyigit
 
         private void button3_Click(object sender, EventArgs e)
         {
-            double ipek;
+            double koca;
             try
             {
-                ipek = double.Parse(tasima.Text);
-                if (ipek<=0.03)
+                koca = double.Parse(tasima.Text);
+                if (koca<=0.03)
                 {
                     MessageBox.Show("Lokomatifler çalıştırılabilir.");
                 }
