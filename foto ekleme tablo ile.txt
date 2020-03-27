@@ -1,0 +1,20 @@
+<table class="table">
+  <tbody>
+  <tr>
+    <td data-title="ID" align="left"><img src="ico/kapak1.jpg" width="40%" height="10%" ></td>
+    <td><b>AÇIKLAMA:</b>Kitabýmýzýn kapak fotoðrafýdýr. Deðerlendirmeleriniz, görüþleriniz bizim için önemlidir. Chatroll alanýný rahatlýkla kullanabilirsiniz. Ayrýca, bu kitabý okuyunca olduðunuz gibi kalamayacaksýnýz.</td>
+     <td><b>YORUM:</b>Bu kitabýn yazarý olarak, hayatýnýz da ufakta olsa bir deðiþime sebep olacaðýna inanýyorum. Her þey baþarýlabilir, ama önemli olan baþarýyý nasýl elde ettiðimiz! Güzel yollarla mý, kötü yollarla mý?</td>
+  </tr>
+  <tr>
+    <td data-title="ID" align="left"><img src="ico/resim.jpg" width="40%" height="10%" style="border-radius:10px;"></td>
+     <td><b>AÇIKLAMA:</b>Kitabýn giriþinde bulunan kiþisel sözdür. Her þey aslýnda bu kadar basit mi, istedilerimizi bilince hiçbir sorun kalmaz mý? Buyrun hep birlikte göz atalým!!!</td>
+      <td><b>YORUM:</b>Ýsteklerimizi bildiðimiz zaman çözüm yollarýný daha kolay bulabiliriz. Bu yüzdem hayatta istediðimiz her þeyin baþýnda istediðimizi bilmek yatýyor, yazýlýmda da önce algoritma kurulur zaten!</td>
+  </tr>
+  <tr>
+    <td data-title="ID" align="left"><img src="ico/resim2.jpg" width="40%" height="15%"></td>
+     <td><b>AÇIKLAMA:</b>Dýþarýda bir yerde çekilmiþ fotoðraf. Kitabýn doðal yapýsýný göstermekte, siz de yanýnýzda gibi hissedip kitaba göz atabilirsiniz. Güzel bir yolculuða çýkmak isteyip, kendini tanýmak isteyen herkese tavsiye edilir!!!</td>
+      <td><b>YORUM:</b>Küçük bir cesarete sahip olamadýðý için hayallerine veda eden birçok insan var, sen de onlardan mý olmak istersin sloganý ile yola çýktým, gerçek baþarýnýn ne olduðu hakkýnda muhabbet kurdum ve isteklerine bakarsan, bütün düðümleri çözersin dedim.</td>
+  </tr>
+  ...
+ </tbody>
+ </table>

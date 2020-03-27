@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Cum, 01 Şub 2019 18:07:46 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+  </head>
+  <body>
+<!--zamana göre mesaj verme -->
+<script type="text/javascript">
+var zaman=new date()
+var saat=zaman.getHours()
+if(saat<12)
+{
+alert("Günaydın güzel insan...");
+}
+else if(saat>=12 && saat<19)
+{
+alert("İyi günler güzel insan...");
+}
+else
+{
+alert("İyi geceler güzel insan...");
+}
+</script>
+  </body>
+</html>

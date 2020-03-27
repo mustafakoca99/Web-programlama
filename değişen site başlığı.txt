@@ -1,0 +1,58 @@
+<!--deðiþen site baþlýðý-->
+<SCRIPT LANGUAGE='JavaScript'>
+
+var default1 = "EN ZOR RAKÝP 'SENSÝN' | "; 
+
+var text1 = "EN ZOR RAKÝP 'SENSÝN' | BAÞARI";
+
+var text2 = "EN ZOR RAKÝP 'SENSÝN' | EN BÜYÜK";
+
+var text3 = "EN ZOR RAKÝP 'SENSÝN' | ÝNTÝKAMDIR";
+
+var text4 = "EN ZOR RAKÝP 'SENSÝN' | MUSTAFA KOCA";
+
+var changeRate = 2000;
+
+var messageNumber = 0;
+
+function changeStatus() {
+
+
+  if (messageNumber == 0) {
+
+     window.status=default1;
+
+     document.title=default1;
+
+    }
+
+  else if (messageNumber == 1) {
+
+     window.status=text1;
+
+     document.title=text1;
+
+    }
+
+  else if (messageNumber == 2) {
+
+     window.status=text2;
+
+     document.title=text2;
+
+     }
+
+  else if (messageNumber == 3) {
+     window.status=text3;
+     document.title=text3;
+     }
+  else if (messageNumber == 4) {
+     window.status=text4;
+     document.title=text4;
+     messageNumber = 0;
+     }
+  messageNumber++;
+  setTimeout("changeStatus();",changeRate);
+}
+changeStatus(); 
+</SCRIPT>

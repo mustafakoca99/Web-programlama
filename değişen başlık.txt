@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Per, 31 Oca 2019 19:14:46 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <SCRIPT LANGUAGE='JavaScript'>
+
+
+
+
+
+var default1 = "SaNaLKuRS | "; 
+
+
+var text1 = "SaNaLKuRS | Neler";
+
+
+var text2 = "SaNaLKuRS | Yapabileceğini";
+
+
+var text3 = "SaNaLKuRS | Göster";
+
+
+var text4 = "SaNaLKuRS | İnan YILMAZ ";
+
+
+var changeRate = 2000; // 1000 = 1 second
+
+
+var messageNumber = 0;
+
+
+
+
+
+function changeStatus() {
+
+
+  if (messageNumber == 0) {
+
+
+     window.status=default1;
+
+
+     document.title=default1;
+
+
+    }
+
+
+  else if (messageNumber == 1) {
+
+
+     window.status=text1;
+
+
+     document.title=text1;
+
+
+    }
+
+
+  else if (messageNumber == 2) {
+
+
+     window.status=text2;
+
+
+     document.title=text2;
+
+
+     }
+
+
+  else if (messageNumber == 3) {
+
+
+     window.status=text3;
+
+
+     document.title=text3;
+
+
+     }
+
+
+  else if (messageNumber == 4) {
+
+
+     window.status=text4;
+
+
+     document.title=text4;
+
+
+     messageNumber = 0;
+
+
+     }
+
+
+
+
+
+  messageNumber++;
+
+
+  setTimeout("changeStatus();",changeRate);
+
+
+
+
+
+}
+
+
+
+
+
+changeStatus(); 
+
+
+
+
+
+</SCRIPT>
+
+  </head>
+  <body>
+
+  </body>
+</html>

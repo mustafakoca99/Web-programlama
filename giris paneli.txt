@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Per, 31 Oca 2019 18:11:14 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+	
+  </head>
+  <body>
+  		<script>
+		var kuladi,sifre;
+		kid=prompt("kullanıcı adınızı giriniz:");
+		kpw=prompt("sifrenizi giriniz");
+		if(kid!="")
+		{
+		if(kid=="mustafa" && kpw=="koca")
+		{
+		document.write("sayın " + kid + " sisteme hosgeldiniz.");
+		}
+		else
+		{
+		alert("sayın " + kid + " giris yetkiniz yok.");
+		}
+		}
+		else
+		{
+		alert("null boş değer girilemez.");
+		}
+		
+		</script>
+  </body>
+</html>

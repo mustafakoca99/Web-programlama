@@ -1,0 +1,7 @@
+<style type="text/css">#toolbar { background-image: url(http://img.webme.com/pic/b/baslangic-sayfam/b-ground.png); border-style: none; margin:0px; font-size:11px; font-family: Trebuchet MS, Arial, Verdana; top: 0px; margin-bottom:0px; padding:0px; z-index:1; height: 30px; left: 0px; position: fixed; right: 0px; color: #fff; width: 100%; } .sehribarsol { float: left; margin: 6px; } .sehribarorta { float: center; margin: 6px; } .sehribarsag { float: right; margin: -1px; } </style><br />
+<div id="toolbar">
+<div class="sehribarsol">
+Sitemize Hoþ Geldiniz ! Umarýz Ýyi Vakit Geçirirsiniz ! Sitemiz hakkýnda ki düþüncelerinizi yorum kutusundan bize söyleyebilirsiniz.. </div>
+<div class="sehribarsag">
+<br />
+</div>

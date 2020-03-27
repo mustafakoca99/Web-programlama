@@ -1,0 +1,31 @@
+<div id="koddostu-button" style="position: fixed; bottom: 8px; right: 16px; width: 200px; padding: 3px; text-align: center; cursor: pointer; background-color: #EDF3F7; border:#C3D7E5 1px solid;border-radius: 3px; font-family: Tahoma, sans-serif; font-size: 14px;" onclick="togglecbox()"><b>SOHPETÝ AÇ</b><a href="http://siteneeklekodlari.blogspot.com" style="text-decoration:none;position:absolute;bottom:0px;right:0px;display:block;color:#C3D7E5;font-size:8px;">+</a></div>
+<div id="koddostu-div" style="display: none; position: fixed; bottom: 48px; right: 16px; width: 200px; background: #EDF3F7; padding: 3px; line-height: 0;border:#C3D7E5 1px solid;border-radius: 3px;"></div>
+<script type="text/javascript">
+var cbvis = false;
+var cbload = false;
+var cbcookie = "cboxvis=";
+function togglecbox () {
+ var cbdiv = document.getElementById("koddostu-div");
+ var cbbut = document.getElementById("koddostu-button");
+ if (!cbvis) {
+  if (!cbload) {
+   cbdiv.innerHTML = '<iframe frameborder="0" width="200" height="373" src="http://www7.cbox.ws/box/?boxid=496510&boxtag=7vf5wm&sec=main" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="yes" name="cboxmain7-496510" style="border:#ababab 1px solid;border-bottom:0px" id="cboxmain7-496510"></iframe><iframe frameborder="0" width="200" height="107" src="http://www7.cbox.ws/box/?boxid=496510&boxtag=7vf5wm&sec=form" marginheight="2" marginwidth="2" scrolling="no" allowtransparency="yes" name="cboxform7-496510" style="border:#ababab 1px solid;border-top:0px" id="cboxform7-496510"></iframe>';
+   cbload = true;
+  }
+  cbdiv.style.display = "block";
+  cbbut.innerHTML = "<b>SOHPETÝ KAPAT</b>";
+ }
+ else {
+  cbdiv.style.display = "none";
+  cbbut.innerHTML = "<b>SOHPETÝ AÇ</b>";
+ }
+ cbvis = !cbvis;
+ document.cookie = cbcookie+((cbvis)?1:0);
+}
+var cbcookiei = document.cookie.indexOf(cbcookie);
+if (cbcookiei >= 0) {
+ if (document.cookie.substring(cbcookiei+cbcookie.length, cbcookiei+cbcookie.length+1) === "1") {
+  togglecbox();
+ }
+}
+</script>

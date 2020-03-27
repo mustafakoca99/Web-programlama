@@ -1,0 +1,24 @@
+<legent><font color="black">YORUM KUTUSU ;</legent>
+<form action="https://formspree.io/mustafakoca220@gmail.com" method="post">
+    <p class="input-block">
+        <label for="contact_author">
+            <strong>Ad Soyad</strong> (gerekli)</label>
+        <input type="text" name="contact_author" id="contact_author" required>
+    </p>
+    <p class="input-block">
+        <label for="_replyto">
+            <strong>E-Posta Adresi</strong> (gerekli)</label>
+        <input type="email" name="_replyto" id="_replyto" required>
+    </p>            
+    <p class="input-block">
+        <label for="contact_subject">
+            <strong>Ýleti Konusu</strong> (gerekli)</label>
+        <input type="text" name="contact_subject" id="contact_subject" required>
+    </p>
+    <p class="textarea-block">
+        <label for="contact_content">
+            <strong>Ýleti</strong> (gerekli)</label><br/>
+        <textarea name="contact_content" id="contact_content" required></textarea>
+    </p>
+    <input type="hidden" name="_next" value="//domainadresimiz.com/tesekkurler.html"> <!-- Form forms.brace.io adresine gönderildikten sonra tekrar sitenize dönüþ yapýlarak sitenizdeki tesekkurler.html dosyasýnýn açýlmasýný saðlýyor. -->
+    <input type="submit" value="GÖNDER">

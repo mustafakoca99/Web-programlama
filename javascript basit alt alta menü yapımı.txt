@@ -1,0 +1,59 @@
+///// ADIM 1 <HEAD> Bölümleri arasýna eklenecek olan bölüm
+
+<style type="text/css">
+.menulinks {position:relative;}
+#menucont a{color:#006699; font-weight:bold; text-decoration:none;}
+#menucont a:hover{color:#ff0000; font-weight:bold; text-decoration:underline overline; text-transform: uppercase;}
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+nSpace=7   // how many space maximum between each letter
+nSpeed=200 // Animasyonun Hýzý
+timerLSM=null;
+function LetterSpacingMenu() {
+  if(document.getElementById){
+  lnks = Math.floor(Math.random()*lnk.length);
+  letterSpacing = Math.floor(Math.random()*nSpace);
+  lnk[lnks].style.letterSpacing = letterSpacing + "px";
+  timerLSM = setTimeout("LetterSpacingMenu()", nSpeed);
+  }
+}
+function StopMenu() {
+  if(document.getElementById) {
+  clearTimeout(timerLSM);
+  for(i=0;i<lnk.length;i++)
+  lnk[i].style.letterSpacing = 0 + "px";
+  }
+}
+function LSMenuInit() {
+  if(document.getElementById) {
+  lnk = document.getElementById("menucont").getElementsByTagName("a");
+  cnt = document.getElementById("menucont");
+  cnt.style.textAlign= "center";
+  cnt.onmouseover=StopMenu;
+  cnt.onmouseout=LetterSpacingMenu;
+  LetterSpacingMenu();
+  }
+}
+onload=LSMenuInit;
+
+</script>
+
+
+//   ***********************************************************
+//// ADIM 2..  BODY taglarý arasýna eklenecek olan bölüm
+//   ***********************************************************
+
+
+
+<div id="menucont">
+  <a href="http://www.ipucu.web.tr" id="a1" class="menulinks" title="Yeni ipucu siteniz">Anasayfa</a><br>
+  <a href="http://www.ipucu.web.tr/forums" id="a2" class="menulinks" title="Forumlar bölümü">Forumlar</a><br>
+  <a href="http://www.ipucu.web.tr" id="a1" class="menulinks" title="Yeni ipucu siteniz">ASP Ýpuçlarý</a><br>
+  <a href="http://www.ipucu.web.tr" id="a1" class="menulinks" title="Yeni ipucu siteniz">PHP Ýpuçlarý</a><br>
+  <a href="http://www.ipucu.web.tr" id="a1" class="menulinks" title="Yeni ipucu siteniz">Javascript Ýpuçlarý</a><br>
+  <a href="http://www.ipucu.web.tr" id="a1" class="menulinks" title="Yeni ipucu siteniz">Haberler</a><br>
+  <a href="http://www.ipucu.web.tr" id="a1" class="menulinks" title="Yeni ipucu siteniz">Yeni Baþlayanlar Ýçin</a><br>
+
+</div>

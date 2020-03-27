@@ -1,0 +1,37 @@
+// ……………………………………………………………….
+// ..1.. <HEAD></HEAD> Taglarý arasýna eklenecek bölüm
+// ……………………………………………………………….
+
+<SCRIPT LANGUAGE="JavaScript">
+function showFAQ(form) {
+form.cevap.value = form.question.options[form.question.selectedIndex].value;
+}
+</SCRIPT>
+
+// ……………………………………………………………….
+//  ..2.. <BODY></BODY> Taglarý arasýna eklenecek bölüm
+// ……………………………………………………………….
+
+<form name=faqform>
+<table border=1 cellspacing=0 cellpadding=5>
+<tr bgcolor="#BEA78B"> 
+<td align=center><font face="verdana,arial" size="-1" color="#000000">
+<b>Soru Cevap Örnek Form</b></font></td>
+</tr>
+<tr bgcolor="#E8E4D0"><td><font face="verdana,arial" size="-1"><br>
+<center> Sorularýn üzerine  týklayarak yanýtlarýný görebilirsiniz.</center>
+<p>
+<ul><select size=10 name=question onChange="javascript:showFAQ(this.form);">
+<option value="......CEVAPLARI BURAYI YAZINIZ......">   -->  ......SORULARI BURAYA YAZINIZ......
+<option value="www.ipucu.web.tr">   -->  Þu anda hangi sayfadayýz?
+<option value="cevap 2">   -->  Soru 2
+<option value="Cevap 3">   -->  Soru 3
+<option value="Cevap 4">   -->  Soru 4
+</select>
+</ul>
+<p align="center">
+Yanýtlar:
+<p>
+<ul>
+<textarea name="cevap" rows=15 cols=50 wrap=virtual>
+</textarea> </ul> </font> </td> </tr> </table> </form>
